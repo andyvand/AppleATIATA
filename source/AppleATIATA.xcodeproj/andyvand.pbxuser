@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeTarget = AB0DFF62108907BA002A29F6 /* AppleATIATA */;
+		addToTargets = (
+			AB0DFF62108907BA002A29F6 /* AppleATIATA */,
+		);
+		codeSenseManager = AB0DFF57108905EE002A29F6 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277415399;
+			PBXWorkspaceStateSaveDate = 277415399;
+		};
+		perUserProjectItems = {
+			AB0DFFA110890EDD002A29F6 /* PBXTextBookmark */ = AB0DFFA110890EDD002A29F6 /* PBXTextBookmark */;
+			AB0DFFA210890EDD002A29F6 /* PBXTextBookmark */ = AB0DFFA210890EDD002A29F6 /* PBXTextBookmark */;
+			AB0DFFA310890EDD002A29F6 /* PBXTextBookmark */ = AB0DFFA310890EDD002A29F6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = AB0DFF56108905EE002A29F6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{107, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* AppleATIATARoot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1235}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 900}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* AppleATIATARoot.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {587, 7865}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{960, 503}";
+		};
+	};
+	427B811B05D00D0C002E36B6 /* AppleATIATADriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1859}}";
+			sepNavSelRange = "{1085, 0}";
+			sepNavVisRange = "{874, 471}";
+		};
+	};
+	427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1517, 15613}}";
+			sepNavSelRange = "{38045, 0}";
+			sepNavVisRange = "{37552, 493}";
+		};
+	};
+	AB0DFF56108905EE002A29F6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AB0DFF57108905EE002A29F6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AB0DFF62108907BA002A29F6 /* AppleATIATA */ = {
+		activeExec = 0;
+	};
+	AB0DFFA110890EDD002A29F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* AppleATIATARoot.cpp */;
+		name = "AppleATIATARoot.cpp: 92";
+		rLen = 0;
+		rLoc = 2919;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 2551;
+	};
+	AB0DFFA210890EDD002A29F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */;
+		name = "AppleATIATADriver.cpp: 243";
+		rLen = 0;
+		rLoc = 7719;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 7425;
+	};
+	AB0DFFA310890EDD002A29F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */;
+		name = "AppleATIATADriver.cpp: 1201";
+		rLen = 0;
+		rLoc = 38045;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 37552;
+	};
+}

@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0DFF7010890857002A29F6 /* AppleATIATARoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* AppleATIATARoot.h */; };
+		AB0DFF7110890857002A29F6 /* AppleATIATAHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = F554955305CD7DEF003B379E /* AppleATIATAHardware.h */; };
+		AB0DFF7210890857002A29F6 /* AppleATIATAChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = F547B64505CEA49A003145B8 /* AppleATIATAChannel.h */; };
+		AB0DFF7310890857002A29F6 /* AppleATIATADriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 427B811B05D00D0C002E36B6 /* AppleATIATADriver.h */; };
+		AB0DFF7410890857002A29F6 /* AppleATIATATiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 427B812105D03550002E36B6 /* AppleATIATATiming.h */; };
+		AB0DFF7510890866002A29F6 /* AppleATIATARoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* AppleATIATARoot.cpp */; };
+		AB0DFF7610890866002A29F6 /* AppleATIATAChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F547B64605CEA49A003145B8 /* AppleATIATAChannel.cpp */; };
+		AB0DFF7710890866002A29F6 /* AppleATIATADriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */; };
+		AB0DFF9A10890C13002A29F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3EFF42367911CA2CB7 /* AppleATIATARoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleATIATARoot.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* AppleATIATARoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleATIATARoot.cpp; sourceTree = "<group>"; };
+		427B811B05D00D0C002E36B6 /* AppleATIATADriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleATIATADriver.h; sourceTree = "<group>"; };
+		427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleATIATADriver.cpp; sourceTree = "<group>"; };
+		427B812105D03550002E36B6 /* AppleATIATATiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleATIATATiming.h; sourceTree = "<group>"; };
+		AB0DFF63108907BB002A29F6 /* AppleATIATA.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleATIATA.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0DFF80108908CA002A29F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F547B64505CEA49A003145B8 /* AppleATIATAChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleATIATAChannel.h; sourceTree = "<group>"; };
+		F547B64605CEA49A003145B8 /* AppleATIATAChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleATIATAChannel.cpp; sourceTree = "<group>"; };
+		F554955305CD7DEF003B379E /* AppleATIATAHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleATIATAHardware.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0DFF61108907BA002A29F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AppleATIATA */ = {
+			isa = PBXGroup;
+			children = (
+				247142CAFF3F8F9811CA285C /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = AppleATIATA;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DFF80108908CA002A29F6 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DFF63108907BB002A29F6 /* AppleATIATA.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3EFF42367911CA2CB7 /* AppleATIATARoot.h */,
+				1A224C3FFF42367911CA2CB7 /* AppleATIATARoot.cpp */,
+				F547B64505CEA49A003145B8 /* AppleATIATAChannel.h */,
+				F547B64605CEA49A003145B8 /* AppleATIATAChannel.cpp */,
+				F554955305CD7DEF003B379E /* AppleATIATAHardware.h */,
+				427B812105D03550002E36B6 /* AppleATIATATiming.h */,
+				427B811B05D00D0C002E36B6 /* AppleATIATADriver.h */,
+				427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB0DFF7E1089086F002A29F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0DFF7010890857002A29F6 /* AppleATIATARoot.h in Headers */,
+				AB0DFF7110890857002A29F6 /* AppleATIATAHardware.h in Headers */,
+				AB0DFF7210890857002A29F6 /* AppleATIATAChannel.h in Headers */,
+				AB0DFF7310890857002A29F6 /* AppleATIATADriver.h in Headers */,
+				AB0DFF7410890857002A29F6 /* AppleATIATATiming.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB0DFF62108907BA002A29F6 /* AppleATIATA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0DFF68108907BD002A29F6 /* Build configuration list for PBXNativeTarget "AppleATIATA" */;
+			buildPhases = (
+				AB0DFF6C10890801002A29F6 /* ShellScript */,
+				AB0DFF7E1089086F002A29F6 /* Headers */,
+				AB0DFF60108907BA002A29F6 /* Resources */,
+				AB0DFF5F108907BA002A29F6 /* Sources */,
+				AB0DFF61108907BA002A29F6 /* Frameworks */,
+				AB0DFF7F1089086F002A29F6 /* Rez */,
+				AB0DFF6A108907FD002A29F6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleATIATA;
+			productName = AppleATIATA;
+			productReference = AB0DFF63108907BB002A29F6 /* AppleATIATA.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = A723C94D0EA63FD600297054 /* Build configuration list for PBXProject "AppleATIATA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AppleATIATA */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0DFF62108907BA002A29F6 /* AppleATIATA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0DFF60108907BA002A29F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0DFF9A10890C13002A29F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		AB0DFF7F1089086F002A29F6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB0DFF6A108907FD002A29F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+		AB0DFF6C10890801002A29F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0DFF5F108907BA002A29F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0DFF7510890866002A29F6 /* AppleATIATARoot.cpp in Sources */,
+				AB0DFF7610890866002A29F6 /* AppleATIATAChannel.cpp in Sources */,
+				AB0DFF7710890866002A29F6 /* AppleATIATADriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A723C94E0EA63FD600297054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1.0.3;
+				DYLIB_CURRENT_VERSION = 1.0.0b1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULE_VERSION = 1.0.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+			};
+			name = Debug;
+		};
+		A723C94F0EA63FD600297054 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.3;
+				DYLIB_CURRENT_VERSION = 1.0.0b1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULE_VERSION = 1.0.3;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+			};
+			name = Deployment;
+		};
+		A723C9500EA63FD600297054 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.3;
+				DYLIB_CURRENT_VERSION = 1.0.0b1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULE_VERSION = 1.0.3;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+			};
+			name = Default;
+		};
+		AB0DFF65108907BD002A29F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+				MODULE_NAME = com.apple.driver.AppleATIATA;
+				PRODUCT_NAME = AppleATIATA;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		AB0DFF66108907BD002A29F6 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+				MODULE_NAME = com.apple.driver.AppleATIATA;
+				PRODUCT_NAME = AppleATIATA;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Deployment;
+		};
+		AB0DFF67108907BD002A29F6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions/IOATAFamily.kext/Contents/PlugIns";
+				MODULE_NAME = com.apple.driver.AppleATIATA;
+				PRODUCT_NAME = AppleATIATA;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A723C94D0EA63FD600297054 /* Build configuration list for PBXProject "AppleATIATA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A723C94E0EA63FD600297054 /* Debug */,
+				A723C94F0EA63FD600297054 /* Deployment */,
+				A723C9500EA63FD600297054 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		AB0DFF68108907BD002A29F6 /* Build configuration list for PBXNativeTarget "AppleATIATA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0DFF65108907BD002A29F6 /* Debug */,
+				AB0DFF66108907BD002A29F6 /* Deployment */,
+				AB0DFF67108907BD002A29F6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

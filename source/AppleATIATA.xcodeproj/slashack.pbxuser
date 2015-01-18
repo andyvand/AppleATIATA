@@ -1,0 +1,141 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 089C1673FE841209C02AAC07 /* AppleATIATA */;
+		codeSenseManager = DADC24E50EF10DC800B37AC6 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					203,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 250678667;
+			PBXWorkspaceStateSaveDate = 250678667;
+		};
+		perUserProjectItems = {
+			DADC24E20EF10DAF00B37AC6 /* PBXBookmark */ = DADC24E20EF10DAF00B37AC6 /* PBXBookmark */;
+			DADC24EB0EF10E7A00B37AC6 /* PBXTargetBookmark */ = DADC24EB0EF10E7A00B37AC6 /* PBXTargetBookmark */;
+			DADC24EC0EF10E7A00B37AC6 /* PBXTargetBookmark */ = DADC24EC0EF10E7A00B37AC6 /* PBXTargetBookmark */;
+			DADC24EF0EF10E7A00B37AC6 /* PBXTextBookmark */ = DADC24EF0EF10E7A00B37AC6 /* PBXTextBookmark */;
+			DADC24FE0EF10EF300B37AC6 /* PBXTargetBookmark */ = DADC24FE0EF10EF300B37AC6 /* PBXTargetBookmark */;
+		};
+		sourceControlManager = DADC24E40EF10DC800B37AC6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1673FE841209C02AAC07 /* AppleATIATA */ = {
+		activeExec = 0;
+	};
+	427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 16534}}";
+			sepNavSelRange = "{34999, 0}";
+			sepNavVisRange = "{30664, 1686}";
+			sepNavWindowFrame = "{{243, 87}, {902, 768}}";
+		};
+	};
+	DADC24E20EF10DAF00B37AC6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */;
+	};
+	DADC24E40EF10DC800B37AC6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DADC24E50EF10DC800B37AC6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DADC24EB0EF10E7A00B37AC6 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 089C1673FE841209C02AAC07 /* AppleATIATA */;
+	};
+	DADC24EC0EF10E7A00B37AC6 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 089C1673FE841209C02AAC07 /* AppleATIATA */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {617, 472}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {246, 594}}";
+			TOCViewSelectedItems = (
+				"com.apple.target-editor-pane.settings.compiler.gcc",
+			);
+		};
+	};
+	DADC24EF0EF10E7A00B37AC6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 427B811C05D00D0C002E36B6 /* AppleATIATADriver.cpp */;
+		name = "AppleATIATADriver.cpp: 1011";
+		rLen = 1;
+		rLoc = 32601;
+		rType = 0;
+		vrLen = 1809;
+		vrLoc = 30792;
+	};
+	DADC24FE0EF10EF300B37AC6 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 089C1673FE841209C02AAC07 /* AppleATIATA */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {617, 472}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {246, 594}}";
+			TOCViewSelectedItems = (
+				"com.apple.target-editor-pane.settings.compiler.gcc",
+			);
+		};
+	};
+}

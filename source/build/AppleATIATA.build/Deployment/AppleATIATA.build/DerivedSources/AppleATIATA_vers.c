@@ -1,0 +1,1 @@
+ const unsigned char AppleATIATAVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:AppleATIATA  PROJECT:AppleATIATA-1.0.3" "\n"; const double AppleATIATAVersionNumber __attribute__ ((used)) = (double)1.0;
